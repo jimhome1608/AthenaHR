@@ -22,5 +22,6 @@ function onEllipsisClicked() {
 GTR are sent from HR via formItemSvc.get and formItemSvc.query<br>
 formItemSvc is part of the WCL in the form-item.service.ts file<br>
 $webapi service handles actaully sending a reciving the GTR<br>
+$webapi is a reference to the  \ApplicationServices\Frontier.ApplicationServices.WebApi  project (ie. Applicaition Services).
 
 .
