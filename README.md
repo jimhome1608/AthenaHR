@@ -19,4 +19,7 @@ function onEllipsisClicked() {
 ```
 
 ## GTR Send and Receive
-form-item.service.ts
+GTR are sent from HR via formItemSvc.get and formItemSvc.query
+formItemSvc is part of the WCL in the form-item.service.ts file
+$webapi service handles actaully sending a reciving the GTR
+
