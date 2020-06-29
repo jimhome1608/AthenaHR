@@ -17,3 +17,6 @@ function onEllipsisClicked() {
             filelookupUtilsService.showDialog(vm, vm.viewmodel.layout.SummaryList);
         }
 ```
+
+## GTR Send and Receive
+form-item.service.ts
