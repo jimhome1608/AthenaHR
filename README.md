@@ -1,8 +1,8 @@
-Adding Payslip Options to HR Admin Settings
-1/ Admin Options are stored in the SQL Database.
-2/ ApplicationServices is the gateway for HR to access this SQL Data
-3/ HR has a ApplicationSettingsService which posts to applicationsettings/getClientSettingValue
-4/ This hits AppServices in public IHttpActionResult GetClientSettingLayoutValueList() where the values are returned.
+## Adding Payslip Options to HR Admin Settings
+1/ Admin Options are stored in the SQL Database.<br>
+2/ ApplicationServices is the gateway for HR to access this SQL Data<br>
+3/ HR has a ApplicationSettingsService which posts to applicationsettings/getClientSettingValue<br>
+4/ This hits AppServices in public IHttpActionResult GetClientSettingLayoutValueList() where the values are returned.<br>
 
 
 
