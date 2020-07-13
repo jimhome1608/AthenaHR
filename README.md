@@ -4,7 +4,7 @@
 3/ HR has a ApplicationSettingsService which posts to applicationsettings/getClientSettingValue<br>
 4/ This hits AppServices in public IHttpActionResult GetClientSettingLayoutValueList() where the values are returned.<br>
 
-
+<hr>
 
 Latest Password for e2e test data<br>
 https://frontiersoftware.visualstudio.com/FrontierSoftware/_wiki/wikis/DevOps%20Docs/1474/AzureDevTest
