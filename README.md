@@ -16,7 +16,16 @@ delete from ApplicationServices.ClientSettings  where [key] = 'PayslipSettings' 
 insert into ApplicationServices.ClientSettings <br>
 values ('F6CFCC0E-3227-45BE-A3B4-12344CA95F16', 'PayslipSettings',<br>
 '{"addressType": "H", "validFileTypes": null }',<br>
-'{"description":"Payslip Settings","fields":[{"fieldCode":"addressType","label":"Address Type","type":10,"isEnabled":true}]}');<br>
+'{"description":"Payslip Settings","fields":[{"fieldCode":"addressType","label":"Address Type","type":10,"isEnabled":true}]}');<br><br>
+
+Running ApplicationServices from Visual Studio<br>
+1/ Load ApplicationServices into VS.<br>
+2/ Find the app pool of the instance of ApplicationService in IIS you will replace for Debugging<br>
+Right CLick on ApplicationServices -> Manage Application -> Advanced Settings shows the Application Poools<br>
+3/ In VS. Click Debug -> Attach To Process and find Process = w3wp.exe and User Name = 'FrontierAppPool_HR21V5'<br>
+Application Services will start runing from VS in place of the default in IIS<br>
+Set break points. eg. public IHttpActionResult GetClientSettingLayoutValueList()<br>
+
             
 <br>
 <hr>
