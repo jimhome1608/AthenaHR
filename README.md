@@ -10,10 +10,15 @@ So can add a record to ClientSettings for PayslipSettings and it will auto load 
 7/ HR populates Administration Setting screen in preferences-screen-administration.html<br>
 preferences-screen.controller.js is loading Administration settings from applicationSettingsService.getLayoutAndValues() in the init function<br>
 <br><br>
-PayslipSettings will already be loaded into AppServices<br>
-Need to represent as a Model and feedback to HR which will also need a new request for these PayslipSettings (as per FileValidation, etc)<br>
-and then HR can populate into the Admin screen and the AppServices -> UpdateClientSettingValue  can be called via HR -> function saveGroupValue(appSetLayoutObj) <br>
-to save changes to PayslipSettings as per the other Admin settings<br>
+Just insert a record in to clientsettings and it will auto populate onto the HR Administration screen with binding to SQL Database.<br>
+No code changes needed. <br><br>
+delete from ApplicationServices.ClientSettings  where [key] = 'PayslipSettings' <br>
+insert into ApplicationServices.ClientSettings <br>
+values ('F6CFCC0E-3227-45BE-A3B4-12344CA95F16', 'PayslipSettings',<br>
+'{"addressType": "H", "validFileTypes": null }',<br>
+'{"description":"Payslip Settings","fields":[{"fieldCode":"addressType","label":"Address Type","type":10,"isEnabled":true}]}');<br>
+            
+<br>
 <hr>
 
 Latest Password for e2e test data<br>
