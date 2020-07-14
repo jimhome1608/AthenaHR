@@ -4,6 +4,7 @@
 3/ HR has a ApplicationSettingsService which posts to applicationsettings/getClientSettingValue<br>
 4/ This hits AppServices in public IHttpActionResult GetClientSettingLayoutValueList() where the values are returned.<br>
 5/ AppServices -> public List<ClientSetting> GetClientSettingsList(string clientId) is where the data is loaded for the given client ID<br>
+- public class ApplicationSettingsController<br>
 6/ ClientSettings table is loaded into AppServices (step 5/ into  public virtual DbSet<ClientSetting> ClientSettings { get; set; }<br>
 - So can add a record to ClientSettings for PayslipSettings and it will auto load into AppServices.<br>
 
