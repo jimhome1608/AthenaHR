@@ -7,7 +7,11 @@
 public class ApplicationSettingsController<br>
 6/ ClientSettings table is loaded into AppServices (step 5/ into  public virtual DbSet<ClientSetting> ClientSettings { get; set; }<br>
 So can add a record to ClientSettings for PayslipSettings and it will auto load into AppServices.<br>
-
+<br><br>
+PayslipSettings will already be loaded into AppServices<br>
+Need to represent as a Model and feedback to HR which will also need a new request for these PayslipSettings (as per FileValidation, etc)<br>
+and then HR can populate into the Admin screen and the AppServices -> UpdateClientSettingValue  can be called via HR -> function saveGroupValue(appSetLayoutObj) <br>
+to save changes to PayslipSettings as per the other Admin settings<br>
 <hr>
 
 Latest Password for e2e test data<br>
