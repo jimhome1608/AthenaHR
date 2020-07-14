@@ -3,6 +3,7 @@
 2/ ApplicationServices is the gateway for HR to access this SQL Data<br>
 3/ HR has a ApplicationSettingsService which posts to applicationsettings/getClientSettingValue<br>
 4/ This hits AppServices in public IHttpActionResult GetClientSettingLayoutValueList() where the values are returned.<br>
+5/ AppServices -> public List<ClientSetting> GetClientSettingsList(string clientId) is where the data is loaded for the given client ID
 
 <hr>
 
