@@ -7,6 +7,7 @@
 public class ApplicationSettingsController<br>
 6/ ClientSettings table is loaded into AppServices (step 5/ into  public virtual DbSet<ClientSetting> ClientSettings { get; set; }<br>
 So can add a record to ClientSettings for PayslipSettings and it will auto load into AppServices.<br>
+7/ HR populates Administration Setting screen in preferences-screen-administration.html<br>
 <br><br>
 PayslipSettings will already be loaded into AppServices<br>
 Need to represent as a Model and feedback to HR which will also need a new request for these PayslipSettings (as per FileValidation, etc)<br>
