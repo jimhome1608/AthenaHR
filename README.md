@@ -1,7 +1,7 @@
 <a id="docker"></a>
 ## Docker Cheat Sheet
 
-<b>Run HR Test Data</b><br><br>
+<b>Run HR Test Data</b><br>
 docker pull frontiersoftware/bre-testdata:hr-develop.latest<br>
 docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:hr-develop.latest<br>  
 <br>
