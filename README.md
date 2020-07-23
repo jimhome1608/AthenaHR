@@ -34,7 +34,7 @@ docker run -it --rm -p "8005:7005" -p "8021:7021" -v "$(pwd)\dat:C:\Frontier\Pro
 Get Local Copy of current HR Test Data <br>
 git clone https://frontiersoftware.visualstudio.com/Athena-HR/_git/bre-data-hr<br>
 Get Local Copy of current GSA Test Data <br>
-<b>Is from same Repo just need to checkout the GSA\Develop branch<b><br>
+<b>NOTE:</b> Is from same Repo just need to checkout the <b>GSA\Develop branch</b><br>
 git clone https://frontiersoftware.visualstudio.com/Athena-HR/_git/bre-data-hr<br><br>
 <b>Run Latest BRE against local DAT folder for these clones and will have lastest copy and can make changes without losing them when docker is stopped.</b><br>
 <br>
