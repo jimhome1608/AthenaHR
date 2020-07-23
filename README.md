@@ -1,24 +1,24 @@
 <a id="docker"></a>
 ## Docker Cheat Sheet
 
-<b>Run HR Test Data</b></br>
-docker pull frontiersoftware/bre-testdata:hr-develop.latest
-docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:hr-develop.latest
-
-<b>Run GSA Test Data</b></br>
-docker pull frontiersoftware/bre-testdata:hr-gsa-develop.latest
-docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:hr-gsa-develop.latest
-
-<b>Run ichris browser Test Data<br></b>
-docker pull frontiersoftware/bre-testdata:develop.latest
-docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:develop.latest
-
-<b>Run Latest BRE against local DAT folder<br></b>
-docker pull frontiersoftware/bre-testdata:hr-forupdate-develop.latest
-docker run -it --rm -p "8005:7005" -p "8021:7021" -v "$(pwd)\dat:C:\Frontier\Production\chris21\dat" frontiersoftware/bre-testdata:hr-forupdate-develop.latest
-
-<b>Get Latest Password<br></b>
-https://frontiersoftware.visualstudio.com/FrontierSoftware/_wiki/wikis/DevOps%20Docs/1474/AzureDevTest
+<b>Run HR Test Data</b><br><br>
+docker pull frontiersoftware/bre-testdata:hr-develop.latest<br>  
+docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:hr-develop.latest<br>  
+<br>
+<b>Run GSA Test Data</b><br>
+docker pull frontiersoftware/bre-testdata:hr-gsa-develop.latest<br>
+docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:hr-gsa-develop.latest<br>
+<br>
+<b>Run ichris browser Test Data<br><br>
+docker pull frontiersoftware/bre-testdata:develop.latest<br>
+docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:develop.latest<br>
+<br>
+<b>Run Latest BRE against local DAT folder<br><br>
+docker pull frontiersoftware/bre-testdata:hr-forupdate-develop.latest<br>
+docker run -it --rm -p "8005:7005" -p "8021:7021" -v "$(pwd)\dat:C:\Frontier\Production\chris21\dat" frontiersoftware/bre-testdata:hr-forupdate-develop.latest<br>
+<br>
+<b>Get Latest Password<br><br>
+https://frontiersoftware.visualstudio.com/FrontierSoftware/_wiki/wikis/DevOps%20Docs/1474/AzureDevTest<br>
 
 
 
