@@ -9,15 +9,15 @@ docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:
 docker pull frontiersoftware/bre-testdata:hr-gsa-develop.latest<br>
 docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:hr-gsa-develop.latest<br>
 <br>
-<b>Run ichris browser Test Data<br><br>
+<b>Run ichris browser Test Data</b><br>
 docker pull frontiersoftware/bre-testdata:develop.latest<br>
 docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:develop.latest<br>
 <br>
-<b>Run Latest BRE against local DAT folder<br><br>
+<b>Run Latest BRE against local DAT folder</b><br>
 docker pull frontiersoftware/bre-testdata:hr-forupdate-develop.latest<br>
 docker run -it --rm -p "8005:7005" -p "8021:7021" -v "$(pwd)\dat:C:\Frontier\Production\chris21\dat" frontiersoftware/bre-testdata:hr-forupdate-develop.latest<br>
 <br>
-<b>Get Latest Password<br><br>
+<b>Get Latest Password</b><br>
 https://frontiersoftware.visualstudio.com/FrontierSoftware/_wiki/wikis/DevOps%20Docs/1474/AzureDevTest<br>
 
 
