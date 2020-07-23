@@ -1,8 +1,8 @@
 <a id="docker"></a>
 ## Docker Cheat Sheet
 
-Change the Component -> Activation -> Constructor String to use port 8005 for spa connections (eg. hostname=localhost;service=8005;parameter=pool6)<br>
-and  use the following connection settings for chris21 or ichris destkop: 1!localhost!localhost!8021!PROD!!!False!False!False!!!False!<br>
+*Change the Component -> Activation -> Constructor String to use port 8005 for spa connections (hostname=localhost;service=8005;parameter=pool6)<br>
+and  use the following connection settings for chris21 or ichris destkop: 1!localhost!localhost!8021!PROD!!!False!False!False!!!False!<br>*
 
 <b>Run HR Test Data</b><br>
 docker pull frontiersoftware/bre-testdata:hr-develop.latest<br>
