@@ -1,6 +1,9 @@
 <a id="docker"></a>
 ## Docker Cheat Sheet
 
+Change the Component -> Activation -> Constructor String to use port 8005 for spa connections (eg. hostname=localhost;service=8005;parameter=pool6)<br>
+and  use the following connection settings for chris21 or ichris destkop: 1!localhost!localhost!8021!PROD!!!False!False!False!!!False!<br>
+
 <b>Run HR Test Data</b><br>
 docker pull frontiersoftware/bre-testdata:hr-develop.latest<br>
 docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:hr-develop.latest<br>
@@ -14,7 +17,7 @@ docker pull frontiersoftware/bre-testdata:develop.latest<br>
 docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:develop.latest<br>
 <br>
 <b>Run Latest BRE against local DAT folder</b><br>
-<b>NOTE:</b> You must change the current directory to the directory of the BRE before running these commands.<br>
+<mark>NOTE:</mark> You must change the current directory to the directory of the BRE before running these commands.<br>
 $(pwd) stands for Present Working Directory so you must be in the directory above the DAT files you want to conenct to.<br>
 <br>
 docker pull frontiersoftware/bre-testdata:hr-forupdate-develop.latest<br>
