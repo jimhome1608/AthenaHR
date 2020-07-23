@@ -14,8 +14,9 @@ docker pull frontiersoftware/bre-testdata:develop.latest<br>
 docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:develop.latest<br>
 <br>
 <b>Run Latest BRE against local DAT folder</b><br>
-NOTE: You must change the current directory to the directory of the BRE before running these commands.<br>
+<b>NOTE:</b> You must change the current directory to the directory of the BRE before running these commands.<br>
 $(pwd) stands for Present Working Directory so you must be in the directory above the DAT files you want to conenct to.<br>
+<br>
 docker pull frontiersoftware/bre-testdata:hr-forupdate-develop.latest<br>
 docker run -it --rm -p "8005:7005" -p "8021:7021" -v "$(pwd)\dat:C:\Frontier\Production\chris21\dat" frontiersoftware/bre-testdata:hr-forupdate-develop.latest<br>
 <br>
