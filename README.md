@@ -35,7 +35,7 @@ Get Local Copy of current HR Test Data <br>
 git clone https://frontiersoftware.visualstudio.com/Athena-HR/_git/bre-data-hr<br>
 Get Local Copy of current GSA Test Data <br>
 git clone https://frontiersoftware.visualstudio.com/Athena-HR/_git/bre-data-hr<br><br>
-<mark>Run Latest BRE against local DAT folder for these clones and will have lastest copy and can make changes without losing them when docker is stopped.</mark><br>
+<b>Run Latest BRE against local DAT folder for these clones and will have lastest copy and can make changes without losing them when docker is stopped.</b><br>
 <br>
 <b>Get Latest Password</b><br>
 https://frontiersoftware.visualstudio.com/FrontierSoftware/_wiki/wikis/DevOps%20Docs/1474/AzureDevTest<br>
