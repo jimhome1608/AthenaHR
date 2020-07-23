@@ -3,7 +3,7 @@
 
 <b>Run HR Test Data</b><br>
 docker pull frontiersoftware/bre-testdata:hr-develop.latest<br>
-docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:hr-develop.latest<br>  
+docker run -it --rm -p "8005:7005" -p "8021:7021" frontiersoftware/bre-testdata:hr-develop.latest<br>
 <br>
 <b>Run GSA Test Data</b><br>
 docker pull frontiersoftware/bre-testdata:hr-gsa-develop.latest<br>
