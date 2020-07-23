@@ -1,5 +1,13 @@
 <a id="docker"></a>
-## Docker Cheat Sheet
+<br>
+<br>
+
+<a id="docker"></a>
+<br>
+<br>
+<hr>
+
+# Docker Cheat Sheet 
 
 *Change the Component -> Activation -> Constructor String to use port 8005 for spa connections (hostname=localhost;service=8005;parameter=pool6)<br>
 and  use the following connection settings for chris21 or ichris destkop: 1!localhost!localhost!8021!PROD!!!False!False!False!!!False!<br>*
@@ -23,10 +31,24 @@ $(pwd) stands for Present Working Directory so you must be in the directory abov
 docker pull frontiersoftware/bre-testdata:hr-forupdate-develop.latest<br>
 docker run -it --rm -p "8005:7005" -p "8021:7021" -v "$(pwd)\dat:C:\Frontier\Production\chris21\dat" frontiersoftware/bre-testdata:hr-forupdate-develop.latest<br>
 <br>
+Get Local Copy of current HR Test Data <br>
+git clone https://frontiersoftware.visualstudio.com/Athena-HR/_git/bre-data-hr<br>
+Get Local Copy of current GSA Test Data <br>
+git clone https://frontiersoftware.visualstudio.com/Athena-HR/_git/bre-data-hr<br><br>
+<mark>Run Latest BRE against local DAT folder for these clones and will have lastest copy and can make changes without losing them when docker is stopped.</mark><br>
+<br>
 <b>Get Latest Password</b><br>
 https://frontiersoftware.visualstudio.com/FrontierSoftware/_wiki/wikis/DevOps%20Docs/1474/AzureDevTest<br>
+<br>
 
+<hr>
 
+<br>
+<b>Get Latest Password</b><br>
+https://frontiersoftware.visualstudio.com/FrontierSoftware/_wiki/wikis/DevOps%20Docs/1474/AzureDevTest<br>
+<br>
+
+<hr>
 
 ## Adding Payslip Options to HR Admin Settings
 1/ Admin Options are stored in the SQL Database.<br>
