@@ -79,6 +79,17 @@ Right CLick on ApplicationServices -> Manage Application -> Advanced Settings sh
 Application Services will start runing from VS in place of the default in IIS<br>
 Set break points. eg. public IHttpActionResult GetClientSettingLayoutValueList()<br>
 
+Download Report v5.ADO: 82266
+D:\frontier\Ares-Application_Services\ApplicationServices\Frontier.ApplicationServices.Business\FileRepository
+FileRepositoryModel.cs
+public class FileRepositoryModel : IFileRepositoryModel
+
+public Task<Stream> Download(int reference, bool handleAsText)
+
+
+D:\frontier\Ares-Application_Services\ApplicationServices\Frontier.ApplicationServices.Business\ReportOutput
+ReportOutputModel.cs
+
             
 <br>
 <hr>
